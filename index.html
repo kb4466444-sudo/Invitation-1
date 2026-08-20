@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>সাদর আমন্ত্রণ — ২১ আগস্ট ২০২৬</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petals" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="envelope" id="envelope">
+      <div class="seal">🌸</div>
+      <p class="small">আপনাকে সাদর আমন্ত্রণ</p>
+      <h1>হস্তশিল্প মেলা<br>খাদ্য মেলা<br>বই মেলা</h1>
+      <p class="date">২১ আগস্ট ২০২৬</p>
+      <button id="openBtn">💌 আমন্ত্রণপত্র খুলুন</button>
+    </section>
+
+    <section class="invitation hidden" id="invitation">
+      <div class="top">
+        <span>🌺</span>
+        <span>🌿</span>
+        <span>🌺</span>
+      </div>
+
+      <h2>জনকল্যাণ শিক্ষা মন্দির</h2>
+      <h3>হাই স্কুল (কো-এড) উচ্চ মাধ্যমিক বিদ্যালয়</h3>
+
+      <div class="date-card">
+        <div class="day">২১ আগস্ট</div>
+        <div>শুক্রবার • ২০২৬</div>
+      </div>
+
+      <div class="photo-wrap">
+        <img src="invitation-card.jpg" alt="মেলার আমন্ত্রণপত্র">
+      </div>
+
+      <div class="events">
+        <div>🎨 <b>হস্তশিল্প মেলা</b></div>
+        <div>🍲 <b>খাদ্য মেলা</b></div>
+        <div>📚 <b>বই মেলা</b></div>
+      </div>
+
+      <p class="message">
+        🌸 <b>সাদর আমন্ত্রণ</b> 🌸<br><br>
+        হস্তশিল্প মেলা • বই মেলা • খাদ্য মেলা<br>
+        আপনাদের উপস্থিতি ও উৎসাহ আমাদের আয়োজনকে আরও আনন্দময় করে তুলবে।
+        <br><br>
+        <b>সকলকে সাদর আমন্ত্রণ জানাই। 🙏</b>
+      </p>
+
+      <div class="venue">
+        <span>📍</span>
+        <div>
+          <strong>স্থান</strong><br>
+          জনকল্যাণ শিক্ষা মন্দির<br>
+          হাই স্কুল (কো-এড) উচ্চ মাধ্যমিক
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="musicBtn">🎵 গান চালু করুন</button>
+        <button id="shareBtn">📲 WhatsApp-এ শেয়ার করুন</button>
+      </div>
+
+      <p class="music-note">
+        কলকাতা বইমেলার গান ব্যবহার করতে চাইলে আপনার নিজের বৈধভাবে প্রাপ্ত
+        audio ফাইলটি <b>kolkata-book-fair-song.mp3</b> নামে এই ফোল্ডারে রাখুন।
+      </p>
+
+      <audio id="music" loop preload="none">
+        <source src="kolkata-book-fair-song.mp3" type="audio/mpeg">
+      </audio>
+
+      <footer>🌸 আপনার উপস্থিতিই আমাদের আয়োজনকে পূর্ণতা দেবে 🌸</footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
